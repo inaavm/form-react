@@ -1,0 +1,13 @@
+import React from 'react';
+
+function Player(props) {
+  return (
+    <>
+      <h1>{props.songName}</h1>
+      <h2>{props.artist}</h2>
+      <button>{props.child}</button>
+    </>
+  );
+}
+
+export default Player;
